@@ -59,7 +59,8 @@ desencriptar.addEventListener("click", () => {
 });
 
 limpiar.addEventListener("click", () => {
-    textOrigin.textContent = "";
+    textOrigin.value = "";
+    text.textContent = "";
 });
 
 copiar.addEventListener("click", () => {
