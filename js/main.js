@@ -61,6 +61,7 @@ desencriptar.addEventListener("click", () => {
 limpiar.addEventListener("click", () => {
     textOrigin.value = "";
     text.textContent = "";
+    textDefault.style.display = "flex";
 });
 
 copiar.addEventListener("click", () => {
