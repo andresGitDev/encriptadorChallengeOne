@@ -17,12 +17,26 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+header {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: var(--color-background);
+    font-family: 'Inter', sans-serif;
+}
+
 footer {
     margin-top: 100px;
     margin-bottom: 30px;
     text-align: center;
     background-color: var(--color-background);
     font-family: 'Inter', sans-serif;
+}
+
+#github {
+    height: 50px;
+    border-radius: 60px;
+    margin-top: 15px;
 }
 
 .container {
